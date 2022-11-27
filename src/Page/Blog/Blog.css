@@ -1,4 +1,32 @@
 #blogContainer {
-    padding-left: 0px;
-    padding-right: 0px;
+  background: #0f1025;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#blogSecondContainer {
+  color: white;
+  text-align: justify;
+  /* padding-bottom: 5rem; */
+}
+
+#goldTradingHeadingTxt {
+    font-size: 2.5rem;
+    /* font-weight: 700; */
+    font-family: "Prata";
+    letter-spacing: 0.2rem;
+    margin: 3rem 0rem 1rem 0rem;
+    text-align: justify;
+}
+
+#blogImg {
+  width: 100%;
+  height: 90%;
+}
+
+#blogParaTxt {
+    font-size: 1rem;
+    font-family: "Prata";
+    margin: 0rem 0rem 2rem 0rem;
+    text-align: justify;
 }
