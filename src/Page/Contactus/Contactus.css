@@ -1,25 +1,28 @@
+#contactUsContainer {
+  padding-left: 0px;
+  padding-right: 0px;
+  background: #0f1025;
+  height: 100vh;
+}
+
 #cuf1 {
-  display: flex;
-  justify-content: center;
-  /* align-items: center; */
-  /* height: 100vh; */
   background: #0f1025;
   color: white;
   text-align: justify;
   padding-bottom: 5rem;
 }
 #cuf2 {
-  margin-top: "4rem";
-  display: "flex";
-  justify-content: "center";
-  align-items: "center";
+  margin-top: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #cuf3 {
   color: #000;
   border-radius: 0.5rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  box-shadow: "1px 3px 1px #9E9E9E";
+  /* box-shadow: 1px 3px 1px #9E9E9E; */
 }
 #contact2 {
   background: #e8e9af;

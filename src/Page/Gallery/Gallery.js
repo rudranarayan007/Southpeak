@@ -17,11 +17,14 @@ import "./Gallery.css";
 import Photos from "../../Component/Photos/Photos";
 import Videos from "../../Component/Videos/Videos";
 import Publication from "../../Component/Publication/Publication";
+import Navbarcomp from "../../Component/Navbarcomp/Navbarcomp";
 function Gallery() {
   const [colorChange, setcolorChange] = useState("first");
   return (
-    <Container fluid id="cuf1">
+    <Container fluid  id="galleryContainer">
       {" "}
+      {/* imported navbar */}
+      <Navbarcomp />
       <Container>
         <Row style={{ marginTop: "2rem", paddingBottom: "2rem" }}>
           <div

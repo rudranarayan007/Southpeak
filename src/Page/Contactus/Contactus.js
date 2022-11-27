@@ -9,23 +9,28 @@ import {
   Tab,
   Form,
 } from "react-bootstrap";
+import Navbarcomp from "../../Component/Navbarcomp/Navbarcomp";
 import "./Contactus.css";
 function Contactus() {
   return (
     <>
-      <Container fluid id="cuf1">
-        <Container>
+      <Container fluid id="contactUsContainer">
+        {/* imported navbar */}
+        <Navbarcomp />
+        <Container id="cuf1">
           <Row
-            style={{
-              marginTop: "3rem",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-            }}
+            // style={{
+            //   marginTop: "3rem",
+            //   display: "flex",
+            //   justifyContent: "center",
+            //   alignItems: "center",
+            // }}
+            id="cuf2"
           >
+            {/* <Col md={2}></Col> */}
             <Col
               md={{ span: 6, order: 1 }}
-              xs={{ span: 12, order: 2 }}
+              xs={{ span: 10, order: 2 }}
               id="contact2"
             >
               <div id="cuf3">
@@ -45,7 +50,7 @@ function Contactus() {
                 >
                   <Form.Control
                     as="textarea"
-                    rows={5}
+                    rows={3}
                     placeholder="Your feedback matters to us!"
                   />
                 </Form.Group>
@@ -55,6 +60,7 @@ function Contactus() {
                 </Button>
               </Form>
             </Col>
+            {/* <Col md={2}></Col> */}
           </Row>
         </Container>
       </Container>

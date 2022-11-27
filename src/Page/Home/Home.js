@@ -1,17 +1,21 @@
-import React from 'react'
-import { Button, Col, Container, Row } from 'react-bootstrap'
-import "./Home.css"
-import logo from "../../../src/Asset/Biscuits.png"
+import React from "react";
+import { Button, Col, Container, Row } from "react-bootstrap";
+import "./Home.css";
+import logo from "../../../src/Asset/Biscuits.png";
+import Navbarcomp from "../../Component/Navbarcomp/Navbarcomp";
 function Home() {
   return (
-    <div id="homebg">
-
-<Container fluid>
-
-
-</Container>
-    </div>
-  )
+    <Container
+      fluid
+      style={{
+        paddingLeft: "0px",
+        paddingRight: "0px",
+      }}
+    >
+      <Navbarcomp />
+      Hii
+    </Container>
+  );
 }
 
-export default Home
+export default Home;

@@ -1,5 +1,6 @@
 import React from 'react'
-import { Button, Container, Nav, Navbar, Form, NavDropdown } from 'react-bootstrap'
+import { Button, Container, Nav, Navbar, Form, NavDropdown } from 'react-bootstrap';
+import {Link} from 'react-router-dom';
 import logo from "../../../src/Asset/logo.png"
 import "./Navbarcomp.css"
 function Navbarcomp() {
@@ -18,12 +19,14 @@ function Navbarcomp() {
             style={{ maxHeight: '100px', gap:'1rem', marginLeft:'1rem' }}
             navbarScroll
           >
-            <Nav.Link href="#action1" id="navsingleitem">HOME</Nav.Link >
-            <Nav.Link href="#action2" id="navsingleitem">ABOUT US</Nav.Link>
-            <Nav.Link href="#action2" id="navsingleitem">NOTICES</Nav.Link>
-            <Nav.Link href="#action2" id="navsingleitem">BLOGS</Nav.Link>
-            <Nav.Link href="#action2" id="navsingleitem">GALLERY</Nav.Link>
-            <Nav.Link href="#action2" id="navsingleitem">CONTACT US</Nav.Link>
+            <Nav.Link id="navsingleitem">
+              <Link to="/">HOME</Link>
+            </Nav.Link >
+            <Nav.Link id="navsingleitem"><Link to="">ABOUT US</Link></Nav.Link>
+            <Nav.Link id="navsingleitem"><Link to="">NOTICES</Link></Nav.Link>
+            <Nav.Link id="navsingleitem"><Link to="/blog">BLOGS</Link></Nav.Link>
+            <Nav.Link id="navsingleitem"><Link to="/gallery">GALLERY</Link></Nav.Link>
+            <Nav.Link id="navsingleitem"><Link to="/contactus">CONTACT US</Link></Nav.Link>
            
           </Nav>
         

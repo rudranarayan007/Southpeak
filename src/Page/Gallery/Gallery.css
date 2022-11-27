@@ -130,13 +130,15 @@
   display: flex;
   justify-content: center;
 }
-#cuf1 {
-  display: flex;
-  justify-content: center;
+#galleryContainer {
+  /* display: flex;
+  justify-content: center; */
   /* align-items: center; */
   /* height: 100vh; */
   background: #1a1a1a;
   color: white;
   text-align: justify;
   padding-bottom: 5rem;
+  padding-left: 0rem;
+  padding-right: 0rem;
 }
