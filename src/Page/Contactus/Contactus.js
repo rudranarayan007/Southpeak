@@ -1,0 +1,65 @@
+import React from "react";
+import {
+  Button,
+  Col,
+  Container,
+  Image,
+  Row,
+  Tabs,
+  Tab,
+  Form,
+} from "react-bootstrap";
+import "./Contactus.css";
+function Contactus() {
+  return (
+    <>
+      <Container fluid id="cuf1">
+        <Container>
+          <Row
+            style={{
+              marginTop: "3rem",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
+            <Col
+              md={{ span: 6, order: 1 }}
+              xs={{ span: 12, order: 2 }}
+              id="contact2"
+            >
+              <div id="cuf3">
+                <h3>Contact Us</h3>
+              </div>
+              <Form style={{ padding: "inherit" }}>
+                <Form.Group className="mb-3" controlId="formBasicEmail">
+                  <Form.Control type="email" placeholder="User name" />
+                </Form.Group>
+
+                <Form.Group className="mb-3" controlId="formBasicPassword">
+                  <Form.Control type="password" placeholder="Password" />
+                </Form.Group>
+                <Form.Group
+                  className="mb-3"
+                  controlId="exampleForm.ControlTextarea1"
+                >
+                  <Form.Control
+                    as="textarea"
+                    rows={5}
+                    placeholder="Your feedback matters to us!"
+                  />
+                </Form.Group>
+
+                <Button variant="primary" type="submit" id="contact3">
+                  Submit
+                </Button>
+              </Form>
+            </Col>
+          </Row>
+        </Container>
+      </Container>
+    </>
+  );
+}
+
+export default Contactus;

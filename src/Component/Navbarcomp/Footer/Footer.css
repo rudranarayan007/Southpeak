@@ -1,0 +1,10 @@
+#footer1{
+    background: #E8E9AF;
+    font-family: inter;
+    font-size: .8rem;
+    font-weight: 500;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: .5rem;
+}

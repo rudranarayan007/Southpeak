@@ -1,0 +1,16 @@
+#bgdarknav{
+    background: #014541;
+}
+#navsingleitem{
+    color:white;
+    font-family: inter;
+    font-size: .9rem;
+    font-weight: 300;
+}
+#navsingleitem:hover{
+    color: rgb(255, 242, 205);
+    font-weight: 400;
+}
+#logoheader{
+    margin: 0rem 0rem 0rem 1rem
+}
