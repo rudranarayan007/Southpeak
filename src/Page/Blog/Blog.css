@@ -1,4 +1,41 @@
 #blogContainer {
-    padding-left: 0px;
-    padding-right: 0px;
+  background: #1a1a1a;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#blogSecondContainer {
+  color: white;
+  text-align: justify;
+}
+
+#goldTradingHeadingTxt {
+  font-size: 1.4rem;
+  font-family: Prata;
+  margin-bottom: 2rem;
+  color: #ffebc0;
+}
+
+#blogParaTxt {
+  font-size: 1rem;
+  margin: 0rem 0rem 2rem 0rem;
+  text-align: justify;
+  color: #ffebc0;
+  text-align: justify;
+  font-family: inter;
+  font-weight: 200;
+  margin-bottom: 2rem;
+}
+
+#blog3 {
+  font-family: prata;
+  font-weight: 300;
+  color: #ffebc0;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  background-color: rgb(45, 45, 45);
+}
+#blogImg{
+  padding: 1rem 0rem 1rem 0rem;
 }

@@ -1,1 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+#homebg{
+    background-color: #1a1a1a;
+}
+#home1{
+    font-family: Prata;
+    font-weight: 500;
+    font-size: 3.5rem;
+   
+    justify-content: center;
+    display: flex;
+    color:#ffebc0 ;
+    flex-direction: column;
+}
 
+#home2{
+    background-color: transparent;
+    border: 1px solid #ffebc0;
+    border-radius: 3px;
+    padding: .7rem 3rem .7rem .7rem;
+    color: #ffebc0;
+    margin-top: 1rem;
+    margin-left: .3rem;
+}
+#home2:hover{
+background-color: #343434;
+color: #1a1a1a;
+cursor: pointer;
+}

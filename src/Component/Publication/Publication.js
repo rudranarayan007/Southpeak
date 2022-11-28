@@ -6,7 +6,7 @@ import demoimage from "../../Asset/Demoimage.jpg";
 function Publication() {
   return (
     <Row xs={1} md={4} className="g-4">
-      {Array.from({ length: 8 }).map((_, idx) => (
+      {Array.from({ length: 4 }).map((_, idx) => (
         <Col>
           <Card>
             <Card.Img variant="top" src={demoimage} />

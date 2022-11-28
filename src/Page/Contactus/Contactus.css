@@ -1,18 +1,18 @@
 #contactUsContainer {
   padding-left: 0px;
   padding-right: 0px;
-  background: #0f1025;
-  height: 100vh;
+  background: #1a1a1a;
+
 }
 
 #cuf1 {
-  background: #0f1025;
+
   color: white;
   text-align: justify;
   padding-bottom: 5rem;
 }
 #cuf2 {
-  margin-top: 8rem;
+  padding-top: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,7 +25,7 @@
   /* box-shadow: 1px 3px 1px #9E9E9E; */
 }
 #contact2 {
-  background: #e8e9af;
+  background: #ffebc0;
   text-align: center;
   padding-top: 2rem;
   border-radius: 0.9rem;
@@ -37,4 +37,12 @@
   font-weight: 500;
   width: 30%;
   margin-bottom: 2rem;
+}
+
+#cuf5{
+  color: #ffebc0;
+  font-family: prata;
+  text-align: center;
+  padding-top: 2rem;
+  font-size: 2rem;
 }

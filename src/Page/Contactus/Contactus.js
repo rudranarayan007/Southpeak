@@ -15,8 +15,13 @@ function Contactus() {
   return (
     <>
       <Container fluid id="contactUsContainer">
-        {/* imported navbar */}
-        <Navbarcomp />
+
+<Container> 
+  <Row>
+    <Col id='cuf5' md={12} xs={12}> Get in Touch With us <hr/></Col>
+  </Row>
+</Container>
+
         <Container id="cuf1">
           <Row
             // style={{
@@ -34,7 +39,7 @@ function Contactus() {
               id="contact2"
             >
               <div id="cuf3">
-                <h3>Contact Us</h3>
+                <h3>Contact Us </h3> <hr/>
               </div>
               <Form style={{ padding: "inherit" }}>
                 <Form.Group className="mb-3" controlId="formBasicEmail">

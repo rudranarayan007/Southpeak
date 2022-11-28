@@ -1,16 +1,27 @@
-#bgdarknav{
-    background: #014541;
+#bgdarknav {
+  background: #014541;
 }
-#navsingleitem{
-    color:white;
-    font-family: inter;
-    font-size: .9rem;
-    font-weight: 300;
+#navsingleitem {
+  color: white;
+  font-family: inter;
+  font-size: 0.9rem;
+  font-weight: 300;
 }
-#navsingleitem:hover{
-    color: rgb(255, 242, 205);
-    font-weight: 400;
+#navsingleitem a {
+  text-decoration: none;
+  color: #ffebc0;
 }
-#logoheader{
-    margin: 0rem 0rem 0rem 1rem
+#navsingleitem:hover {
+  color: rgb(255, 242, 205);
+  font-weight: 400;
+}
+#logoheader {
+  margin: 0rem 0rem 0rem .3rem;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 30 30%27%3e%3cpath stroke=%27rgba%28255, 242, 205, 0.96%29%27 stroke-linecap=%27round%27 stroke-miterlimit=%2710%27 stroke-width=%272%27 d=%27M4 7h22M4 15h22M4 23h22%27/%3e%3c/svg%3e");
+}
+.navbar-light .navbar-toggler{
+    border: none;
 }

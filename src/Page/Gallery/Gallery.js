@@ -24,7 +24,7 @@ function Gallery() {
     <Container fluid  id="galleryContainer">
       {" "}
       {/* imported navbar */}
-      <Navbarcomp />
+    
       <Container>
         <Row style={{ marginTop: "2rem", paddingBottom: "2rem" }}>
           <div
@@ -36,7 +36,7 @@ function Gallery() {
           >
             Gallery
           </div>
-          <Col xs={6} md={4} id="aspd10">
+          <Col xs={4} md={4} id="aspd10">
             <Button
               id="aspd11"
               onClick={() => setcolorChange("first")}
@@ -49,7 +49,7 @@ function Gallery() {
               <GrImage id="aspd9" /> Gallery
             </Button>
           </Col>
-          <Col xs={6} md={4} id="aspd10">
+          <Col xs={4} md={4} id="aspd10">
             <Button
               id="aspd11"
               onClick={() => setcolorChange("second")}
@@ -62,7 +62,7 @@ function Gallery() {
               <FiVideo id="aspd9" /> Video
             </Button>
           </Col>
-          <Col xs={6} md={4} id="aspd10">
+          <Col xs={4} md={4} id="aspd10">
             <Button
               id="aspd11"
               onClick={() => setcolorChange("third")}

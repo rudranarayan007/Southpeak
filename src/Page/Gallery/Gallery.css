@@ -5,7 +5,7 @@
   position: relative;
 }
 #aspd3 {
-  color: white;
+
   position: absolute;
   right: 1.5rem;
   top: 0.5rem;
@@ -44,7 +44,7 @@
   justify-content: center;
 }
 #aspd11 {
-  width: 90%;
+
   font-size: 1.1rem;
   font-weight: 400;
   background: black;
@@ -109,11 +109,11 @@
   margin-bottom: 1rem;
 }
 #shoot4 {
-  width: 98%;
+
   height: 91%;
 }
 #shoot5 {
-  width: 90%;
+
   border: none;
   background-color: #1931bb;
   margin-top: 0.5rem;

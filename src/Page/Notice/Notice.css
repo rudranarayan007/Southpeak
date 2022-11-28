@@ -1,0 +1,38 @@
+#notice1{
+    font-family: Prata;
+    font-size: 2rem;
+    color: #ffebc0;
+    margin-top: 2rem;
+}
+#noticebg{
+    background-color: #1a1a1a;
+    height: 100vh;
+}
+#notice2{
+    background-color: #ffebc0;
+    width: 6rem;
+    height: .1rem;
+    margin-bottom: 2rem;
+}
+#notice3{
+color: #ffebc0;
+text-align: justify;
+font-family: inter;
+font-weight:200;
+margin-bottom: 2rem;
+}
+#notice4{
+    display: flex;
+    justify-content: flex-end;
+    color: #fff;
+    font-family: inter;
+    font-weight: 500;
+    font-size: .8rem;
+}
+#notice5{
+    background-color: transparent;
+    border: 1px solid #ffebc0;
+    margin-bottom: 1rem;
+    color: #ffebc0;
+    border-radius: 1px;
+}
