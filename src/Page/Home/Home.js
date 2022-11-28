@@ -26,6 +26,7 @@ function Home() {
     {/* <Gallery/> */}
     <Blog/>
     <Notice/>
+    <Gallery/>
     </div>
   );
 }

@@ -5,7 +5,7 @@
   position: relative;
 }
 #aspd3 {
-
+  color: #ffebc0;
   position: absolute;
   right: 1.5rem;
   top: 0.5rem;
@@ -22,38 +22,41 @@
 #aspd6 {
   font-size: 1rem;
   font-weight: 500;
-  color: white;
+  color: #ffebc0;
 }
 #aspd7 {
   font-size: 0.9rem;
   font-weight: 400;
-  color: white;
+  color: #ffebc0;
 }
 #aspd8 {
   background: #1a1a1a;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 #aspd9 {
-  transform: rotate(0deg);
-  height: 1.5rem;
-  width: 1.5rem;
-  color: #ffec5f;
+  /* transform: rotate(0deg); */
+  /* height: 1.5rem; */
+  font-size: 1rem;
+  color: #ffebc0;
+  margin-right: 0.5rem;
 }
 #aspd10 {
   display: flex;
   justify-content: center;
 }
 #aspd11 {
-
-  font-size: 1.1rem;
+  width: 120%;
+  font-size: 0.9rem;
   font-weight: 400;
-  background: black;
+  background: #014541;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   border: none;
   margin-bottom: 0.5rem;
-  color: #ffec5f;
+  color: #ffebc0;
 }
 #edci {
-  background-color: aliceblue;
+  background-color: #ffebc0;
   border-radius: 1rem;
   height: 20rem;
 }
@@ -63,42 +66,18 @@
 #edci3 {
   padding-left: 3rem;
 }
-.nav-tabs .nav-link {
-  color: #ffec5f;
-  font-size: 0.9rem;
-  background-color: #052bff;
-  width: 10rem;
-  height: 3rem;
-  margin-right: 0.5rem;
-  border-radius: 0.5rem;
-  margin-bottom: 1rem;
-  padding: 0rem;
-}
 
-.nav-tabs .nav-link.active {
-  color: #ffec5f;
-  background-color: #f112a5;
-}
-
-.nav-tabs {
-  --bs-nav-tabs-border-width: none;
-  --bs-nav-tabs-border-color: none;
-  --bs-nav-tabs-border-radius: none;
-}
-/* .nav-tabs nav {
-    overflow-x: auto;
-  } */
 #shoot1 {
   background-color: #000000;
   padding-top: 1rem;
   padding-bottom: 4.8rem;
 }
 #shoot2 {
-  color: white;
+  color: #ffebc0;
   margin-top: 1rem;
 }
 #shoot3 {
-  background: white;
+  background: #ffebc0;
   color: black;
   width: 100%;
   border-radius: 0.6rem;
@@ -109,11 +88,11 @@
   margin-bottom: 1rem;
 }
 #shoot4 {
-
+  width: 98%;
   height: 91%;
 }
 #shoot5 {
-
+  width: 90%;
   border: none;
   background-color: #1931bb;
   margin-top: 0.5rem;
@@ -124,7 +103,7 @@
   transform: rotate(90deg);
   height: 1.5rem;
   width: 1.5rem;
-  color: #ffec5f;
+  color: #ffebc0;
 }
 #shoot7 {
   display: flex;
@@ -136,7 +115,7 @@
   /* align-items: center; */
   /* height: 100vh; */
   background: #1a1a1a;
-  color: white;
+  color: #ffebc0;
   text-align: justify;
   padding-bottom: 5rem;
   padding-left: 0rem;

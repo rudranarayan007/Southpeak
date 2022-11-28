@@ -1,3 +1,10 @@
 #vd1{
     margin-bottom: 1rem;
 }
+
+#vd2 {
+    border: 1px solid #ffebc0;
+    border-radius: 0.4rem;
+    width: 100%;
+    height: 100%;
+}

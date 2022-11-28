@@ -3,15 +3,11 @@ import {
   Button,
   Col,
   Container,
-  Image,
   Row,
-  Tabs,
-  Tab,
-  Form,
 } from "react-bootstrap";
 import { FiUsers } from "react-icons/fi";
 import { FiVideo } from "react-icons/fi";
-import { GrImage } from "react-icons/gr";
+import { BsImages } from "react-icons/bs";
 import "./Gallery.css";
 // import Components
 import Photos from "../../Component/Photos/Photos";
@@ -21,60 +17,92 @@ import Navbarcomp from "../../Component/Navbarcomp/Navbarcomp";
 function Gallery() {
   const [colorChange, setcolorChange] = useState("first");
   return (
-    <Container fluid  id="galleryContainer">
+    <Container fluid id="galleryContainer">
       {" "}
       {/* imported navbar */}
-    
+ 
       <Container>
-        <Row style={{ marginTop: "2rem", paddingBottom: "2rem" }}>
-          <div
-            style={{
-              fontSize: "4rem",
-              marginLeft: "1rem",
-              marginBottom: "1rem",
-            }}
-          >
-            Gallery
-          </div>
-          <Col xs={4} md={4} id="aspd10">
-            <Button
-              id="aspd11"
-              onClick={() => setcolorChange("first")}
-              style={
-                colorChange === "first"
-                  ? { color: "#1EEBC6" }
-                  : { color: "#E8E9AF" }
-              }
+        <Row style={{paddingTop: '1rem', paddingBottom: "0.5rem" }}>
+          <Col md={1}></Col>
+          <Col md={10}>
+            <div
+              style={{
+                fontSize: "2rem",
+                marginLeft: "1rem",
+                marginBottom: "2rem",
+                fontFamily:'Prata',
+                
+              }}
             >
-              <GrImage id="aspd9" /> Gallery
-            </Button>
+              Gallery
+            </div>
+            <Row>
+              <Col xs={3} md={4} id="aspd10">
+                <Button
+                  id="aspd11"
+                  onClick={() => setcolorChange("first")}
+                  style={
+                    colorChange === "first"
+                      ? { color: "#fff" }
+                      : { color: "#ffebc0" }
+                  }
+                >
+                  <BsImages
+                    id="aspd9"
+                    style={
+                      colorChange === "first"
+                        ? { color: "#fff" }
+                        : { color: "#ffebc0" }
+                    }
+                  />{" "}
+                  Gallery
+                </Button>
+              </Col>
+              <Col xs={3} md={4} id="aspd10">
+                <Button
+                  id="aspd11"
+                  onClick={() => setcolorChange("second")}
+                  style={
+                    colorChange === "second"
+                      ? { color: "#fff" }
+                      : { color: "#ffebc0" }
+                  }
+                >
+                  <FiVideo
+                    id="aspd9"
+                    style={
+                      colorChange === "second"
+                        ? { color: "#fff" }
+                        : { color: "#ffebc0" }
+                    }
+                  />{" "}
+                  Video
+                </Button>
+              </Col>
+              <Col xs={3} md={4} id="aspd10">
+                <Button
+                  id="aspd11"
+                  onClick={() => setcolorChange("third")}
+                  style={
+                    colorChange === "third"
+                      ? { color: "#fff" }
+                      : { color: "#ffebc0" }
+                  }
+                >
+                  <FiUsers
+                    id="aspd9"
+                    style={
+                      colorChange === "third"
+                        ? { color: "#fff" }
+                        : { color: "#ffebc0" }
+                    }
+                  />{" "}
+                  Publication
+                </Button>
+              </Col>
+            </Row>{" "}
           </Col>
-          <Col xs={4} md={4} id="aspd10">
-            <Button
-              id="aspd11"
-              onClick={() => setcolorChange("second")}
-              style={
-                colorChange === "second"
-                  ? { color: "#1EEBC6" }
-                  : { color: "#E8E9AF" }
-              }
-            >
-              <FiVideo id="aspd9" /> Video
-            </Button>
-          </Col>
-          <Col xs={4} md={4} id="aspd10">
-            <Button
-              id="aspd11"
-              onClick={() => setcolorChange("third")}
-              style={
-                colorChange === "third"
-                  ? { color: "#1EEBC6" }
-                  : { color: "#E8E9AF" }
-              }
-            >
-              <FiUsers id="aspd9" /> Publication
-            </Button>
-          </Col>
+          <Col md={1}></Col>
         </Row>
         <Container>
           {colorChange === "first" ? <Photos /> : null}

@@ -14,7 +14,8 @@ export default function Blog() {
         <Row>
           <Col md={1}></Col>
           <Col>
-           <Row><Col id="blog3"> Blogs </Col> </Row>
+          <Row style={{marginLeft:'1rem'}}>
+           <Row><Col id="blog3"> Blogs </Col> </Row></Row>
            
             <Row>
               <Col>

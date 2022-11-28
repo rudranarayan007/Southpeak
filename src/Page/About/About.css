@@ -1,0 +1,27 @@
+#aboutbg{
+    background: #1a1a1a;
+}
+#about1{
+ color : #ffebc0;
+ font-family: inter;
+ font-weight: 100;
+
+}
+#about2{
+    color:#ffebc0;
+    font-family: Prata;
+    font-size: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+}
+#about3{
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+#about4{
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    margin: 0px;
+}

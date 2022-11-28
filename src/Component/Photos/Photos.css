@@ -7,3 +7,13 @@
 #pc1 {
   margin-bottom: 1.4rem;
 }
+#imagePics {
+  background: #818890;
+  border-radius: 0.3rem;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ffebc0;
+}
+#pc1 {
+  margin-bottom: 1rem;
+}
