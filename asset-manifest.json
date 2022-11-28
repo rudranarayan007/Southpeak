@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Southpeak/static/css/main.923bf5a9.css",
+    "main.js": "/Southpeak/static/js/main.3d8bda15.js",
+    "static/js/787.2e901f8e.chunk.js": "/Southpeak/static/js/787.2e901f8e.chunk.js",
+    "static/media/blogImg.png": "/Southpeak/static/media/blogImg.85b469552326e846981e.png",
+    "static/media/Goldbiscuit.png": "/Southpeak/static/media/Goldbiscuit.9b9c4c7ee163c1760e81.png",
+    "static/media/img6.jfif": "/Southpeak/static/media/img6.be55d7494cd301b25a6f.jfif",
+    "static/media/img2.jfif": "/Southpeak/static/media/img2.a119a21d7340892e793e.jfif",
+    "static/media/Demoimage.jpg": "/Southpeak/static/media/Demoimage.1c728cdda1359cfec922.jpg",
+    "static/media/img5.jfif": "/Southpeak/static/media/img5.14e492fe9b43e3a7b8d2.jfif",
+    "static/media/img1.jfif": "/Southpeak/static/media/img1.1b97e899098aab0077d2.jfif",
+    "static/media/img3.jfif": "/Southpeak/static/media/img3.bc90a019d83c5b4e8d0a.jfif",
+    "static/media/img7.jfif": "/Southpeak/static/media/img7.65cbc822c87f5f9a1b5b.jfif",
+    "static/media/goldar.jpg": "/Southpeak/static/media/goldar.5e79d9e330bcf2b35805.jpg",
+    "static/media/img4.jfif": "/Southpeak/static/media/img4.88a8206d6a569b119cf4.jfif",
+    "static/media/Gold-exchange.jpg": "/Southpeak/static/media/Gold-exchange.c3fcb8caeb575445fffd.jpg",
+    "index.html": "/Southpeak/index.html",
+    "main.923bf5a9.css.map": "/Southpeak/static/css/main.923bf5a9.css.map",
+    "main.3d8bda15.js.map": "/Southpeak/static/js/main.3d8bda15.js.map",
+    "787.2e901f8e.chunk.js.map": "/Southpeak/static/js/787.2e901f8e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.923bf5a9.css",
+    "static/js/main.3d8bda15.js"
+  ]
+}
