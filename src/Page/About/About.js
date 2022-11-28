@@ -63,7 +63,7 @@ function About() {
         {/* our misson */}
 
         <Row style={{ marginTop: "1.5rem" }}>
-          <Col md={6} xs={12} lg={{ order: "first" }}  xs={{ order: "last" }}>
+          <Col md={6} lg={{ order: "first" }}  xs={{ order: "last" }}>
             <img src={Goldexch} style={{ width: "100%" }}  />
           </Col>
 
