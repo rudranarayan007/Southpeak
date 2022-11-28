@@ -14,31 +14,31 @@ import demoimage from "../../Asset/Demoimage.jpg";
 function Photos() {
   return (
     <Row>
-      <Col md={3} id="pc1">
+      <Col md={4} id="pc1">
         <Image src={demoimage} alt="profile pic" id="imagePics" />
       </Col>
-      <Col md={3} id="pc1">
+      <Col md={4} id="pc1">
         <Image src={demoimage} alt="profile pic" id="imagePics" />
       </Col>
-      <Col md={3}  id="pc1">
+      <Col md={4}  id="pc1">
         <Image src={demoimage} alt="profile pic" id="imagePics" />
       </Col>
-      <Col md={3}  id="pc1">
+      <Col md={4}  id="pc1">
         <Image src={demoimage} alt="profile pic" id="imagePics" />
       </Col>
-      <Col md={3} id="pc1">
+      <Col md={4} id="pc1">
         <Image src={demoimage} alt="profile pic" id="imagePics" />
       </Col>
-      <Col md={3} id="pc1">
+      <Col md={4} id="pc1">
         <Image src={demoimage} alt="profile pic" id="imagePics" />
       </Col>
-      <Col md={3} id="pc1">
+      <Col md={4} id="pc1">
         <Image src={demoimage} alt="profile pic" id="imagePics" />
       </Col>
-      <Col md={3} id="pc1">
+      <Col md={4} id="pc1">
         <Image src={demoimage} alt="profile pic" id="imagePics" />
       </Col>
-      <Col md={3} id="pc1">
+      <Col md={4} id="pc1">
         <Image src={demoimage} alt="profile pic" id="imagePics" />
       </Col>
     </Row>

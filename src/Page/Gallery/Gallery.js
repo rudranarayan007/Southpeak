@@ -11,7 +11,7 @@ import {
 } from "react-bootstrap";
 import { FiUsers } from "react-icons/fi";
 import { FiVideo } from "react-icons/fi";
-import { GrImage } from "react-icons/gr";
+import { BsImageFill } from "react-icons/bs";
 import "./Gallery.css";
 // import Components
 import Photos from "../../Component/Photos/Photos";
@@ -21,69 +21,84 @@ import Navbarcomp from "../../Component/Navbarcomp/Navbarcomp";
 function Gallery() {
   const [colorChange, setcolorChange] = useState("first");
   return (
-    <Container fluid  id="galleryContainer">
+    <Container fluid id="galleryContainer">
       {" "}
       {/* imported navbar */}
-    
       <Container>
-        <Row style={{ marginTop: "2rem", paddingBottom: "2rem" }}>
-          <div
-            style={{
-              fontSize: "4rem",
-              marginLeft: "1rem",
-              marginBottom: "1rem",
-            }}
-          >
-            Gallery
-          </div>
-          <Col xs={4} md={4} id="aspd10">
+        <Row>
+          <Col md={1}></Col>
+          <Col id="gallery1">Gallery</Col>
+          <Col md={1}></Col>
+        </Row>
+      </Container>
+
+      <Container>
+        <Row>
+          <Col md={1}></Col>
+          <Col>
+        <Row id="gallery7">
+          <Col md={4}  xs={4} id="gallery3">
             <Button
-              id="aspd11"
+              id="gallery2"
               onClick={() => setcolorChange("first")}
               style={
                 colorChange === "first"
-                  ? { color: "#1EEBC6" }
-                  : { color: "#E8E9AF" }
+                  ? { color: "#ffebc0" }
+                  : { color: "white" }
               }
             >
-              <GrImage id="aspd9" /> Gallery
+              <BsImageFill id="gallery6" /> Gallery
             </Button>
           </Col>
-          <Col xs={4} md={4} id="aspd10">
+          <Col md={4}  xs={4} id="gallery4">
             <Button
-              id="aspd11"
               onClick={() => setcolorChange("second")}
               style={
                 colorChange === "second"
-                  ? { color: "#1EEBC6" }
-                  : { color: "#E8E9AF" }
+                  ? { color: "#ffebc0" }
+                  : { color: "white" }
               }
+              id="gallery2"
             >
-              <FiVideo id="aspd9" /> Video
+              <FiVideo id="gallery6" /> Video
             </Button>
           </Col>
-          <Col xs={4} md={4} id="aspd10">
+          <Col md={4} xs={4} id="gallery5">
             <Button
-              id="aspd11"
               onClick={() => setcolorChange("third")}
               style={
                 colorChange === "third"
-                  ? { color: "#1EEBC6" }
-                  : { color: "#E8E9AF" }
+                  ? { color: "#ffebc0" }
+                  : { color: "white" }
               }
+              id="gallery2"
             >
-              <FiUsers id="aspd9" /> Publication
+              <FiUsers id="gallery6" /> Publication
             </Button>
           </Col>
         </Row>
-        <Container>
-          {colorChange === "first" ? <Photos /> : null}
-          {colorChange === "second" ? <Videos /> : null}
-          {colorChange === "third" ? <Publication /> : null}
-        </Container>
+       </Col>
+        <Col md={1}></Col>
+
+        </Row>
+      </Container>
+
+
+      <Container>
+         <Row>    
+          <Col md={1}></Col> 
+          <Col>  
+        {colorChange === "first" ? <Photos /> : null}
+        {colorChange === "second" ? <Videos /> : null}
+        {colorChange === "third" ? <Publication /> : null}
+        </Col>
+        <Col md={1}></Col>   
+
+        </Row>
       </Container>
     </Container>
   );
 }
 
 export default Gallery;
+
