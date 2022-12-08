@@ -1,4 +1,8 @@
 import React from "react";
+
+import emailjs from "emailjs-com"
+
+
 import {
   Button,
   Col,
@@ -12,6 +16,18 @@ import {
 import Navbarcomp from "../../Component/Navbarcomp/Navbarcomp";
 import "./Contactus.css";
 function Contactus() {
+
+  // const Mailer = ()=>{
+   
+    function sendEmail(e) {
+      e.preventDefault();
+      emailjs.sendForm('service_22z2cec', 'template_rf12pmg', e.target, 'user_Msze3hWYwy8NmwXCWmhjm' )
+      .then(res=>{
+        console.log(res);
+      }).catch(err=> console.log(err));
+    }
+  // }
+
   return (
     <>
       <Container fluid id="contactUsContainer">
@@ -42,12 +58,24 @@ function Contactus() {
                 <h3>Contact Us </h3> <hr/>
               </div>
               <Form style={{ padding: "inherit" }}>
-                <Form.Group className="mb-3" controlId="formBasicEmail">
-                  <Form.Control type="email" placeholder="User name" />
+                <Form.Group className="mb-4" controlId="formBasicEmail">
+               
+                  <Form.Control type="text" placeholder="Name" name="name"  />
                 </Form.Group>
 
-                <Form.Group className="mb-3" controlId="formBasicPassword">
-                  <Form.Control type="password" placeholder="Password" />
+                <Form.Group className="mb-4"   controlId="exampleForm.ControlTextarea1" >
+                
+                  <Form.Control type="email" placeholder="Email" name="user_email" />
+                </Form.Group>
+
+                <Form.Group className="mb-4" controlId="formBasicEmail">
+            
+                  <Form.Control type="text" placeholder="Phone" name="Phone"  />
+                </Form.Group>
+
+                <Form.Group className="mb-4" controlId="formBasicEmail">
+                 
+                  <Form.Control type="text" placeholder="Subject" name="name"  />
                 </Form.Group>
                 <Form.Group
                   className="mb-3"
@@ -56,11 +84,11 @@ function Contactus() {
                   <Form.Control
                     as="textarea"
                     rows={3}
-                    placeholder="Your feedback matters to us!"
+                    placeholder="Your feedback matters to us!" name="messege"
                   />
                 </Form.Group>
 
-                <Button variant="primary" type="submit" id="contact3">
+                <Button   onSubmit={sendEmail} variant="primary" type="submit" id="contact3">
                   Submit
                 </Button>
               </Form>

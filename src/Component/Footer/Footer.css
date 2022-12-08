@@ -1,11 +1,38 @@
 #footer1{
-    background: #ffebc0;
+    background: #014541;
     font-family: inter;
     font-size: .8rem;
     font-weight: 500;
+}
+#footer2{
+    font-size: 1.4rem;
+    font-family: inter;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffebc0;
+}
+#footer3{
+    padding: 1.4rem; 
+}
+#footer4{
+    color: #ffebc0;
+    font-family: inter;
+    font-weight: 200;
+}
+#footer5{
+    margin-top: 1rem;
+    color: #ffebc0;
+    font-family: inter;
+    font-weight: 200;
+}
+#footerpart2{
+    background-color: #ffebc0;
+    color: #1a1a1a;
     align-items: center;
     display: flex;
     justify-content: center;
-    padding: .8rem;
     text-align: center;
+    font-family: inter;
+    font-weight: 500;
+    font-size: .8rem;
 }

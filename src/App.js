@@ -10,6 +10,7 @@ import Blog from "./Page/Blog/Blog";
 import Navbarcomp from "./Component/Navbarcomp/Navbarcomp";
 import Notice from "./Page/Notice/Notice";
 import About from "./Page/About/About";
+import Dummy from "./Component/Dummy/Dummy";
 function App() {
   return (
     <div>
@@ -27,12 +28,10 @@ function App() {
           <Route path="footer" element={<Footer />} />
         </Routes>
         <Footer/>
-      </Router>
-      {/* <Navbarcomp /> */}
-      {/* <Home/> */}
-      {/* <Gallery/>
-<Contactus/>
-<Footer/> */}
+      </Router> 
+{/* <Contactus/> */}
+
+
     </div>
   );
 }

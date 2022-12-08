@@ -8,21 +8,26 @@ export default function Blog() {
   return (
     <Container fluid id="blogContainer">
       {/* imported navbar */}
-    
 
       <Container id="blogSecondContainer">
         <Row>
           <Col md={1}></Col>
           <Col>
-          <Row style={{marginLeft:'1rem'}}>
-           <Row><Col id="blog3"> Blogs </Col> </Row></Row>
-           
+            
+              <Row id="blog3">
+                {" "}
+                <Col> Blogs </Col>{" "}
+              </Row>
+            
+
             <Row>
               <Col>
-                <Image src={BlogImage} id="blogImg" style={{width:'100%'}} />
+                <Image src={BlogImage} id="blogImg" style={{ width: "100%" }} />
               </Col>
             </Row>
-            <Row id="goldTradingHeadingTxt"><Col> Gold Trading Is Growing Now !</Col> </Row>
+            <Row id="goldTradingHeadingTxt">
+              <Col> Gold Trading Is Growing Now !</Col>{" "}
+            </Row>
             <Row id="blogParaTxt">
               Gold has been an investment asset and store of value for
               centuries. To this day, investors include gold in their portfolios
@@ -40,10 +45,10 @@ export default function Blog() {
               gold in bulk. In other words, by spreading various fixed-cost
               items across more units, you reduce the premium you pay per unit.
               These expenses include shipping, administrative fees, insurance,
-              and packaging costs. 
+              and packaging costs.
               <br />
-              Dealer discounts are another potential cost
-              advantage when you buy physical gold in bulk.
+              Dealer discounts are another potential cost advantage when you buy
+              physical gold in bulk.
             </Row>
           </Col>
           <Col md={1}></Col>

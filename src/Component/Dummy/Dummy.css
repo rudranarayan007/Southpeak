@@ -1,0 +1,33 @@
+#desc{
+    background-color: #1a1a1a;
+    color:aliceblue;
+    font-family: 'montserrat';
+    font-weight: 200;
+    padding: 2rem;
+    border-radius: .3rem;
+}
+#cont{
+    margin-top: 4rem;
+}
+#title{
+    font-weight: 400;
+    color: yellow;
+    font-size: 1.4rem;
+}
+#descp{
+    margin-top: 1rem;
+    font-size: .9rem;
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+#price{
+    color: red;
+    font-weight: 500;
+
+}
+
+#btn{
+background-color: green;
+margin-top: 1rem;
+margin-left: -10px;
+}
